@@ -31,5 +31,5 @@ app.put('/dec', function (req,res) {
   res.status(204).end();
 });
 
-app.liste(PORT);
+app.listen(PORT);
 console.log('Running on http://localhost:' + PORT);
