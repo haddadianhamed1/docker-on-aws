@@ -13,7 +13,7 @@ var express = require('express');
 var morgan = require('morgan');
 
 var PORT = process.env.PORT || 8080;
-
+count = 0;
 var app = express();
 
 app.use(morgan('[:date[iso]] :method :url\t:status'));
